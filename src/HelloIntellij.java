@@ -5,5 +5,6 @@ public class HelloIntellij {
         System.out.println("Enter a message to display:");
         String message = scanner.nextLine();
         System.out.println(message);
+        scanner.close();
     }
 }
